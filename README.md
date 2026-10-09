@@ -18,37 +18,36 @@ We research nutrition and health for every species, especially the exotic pets t
 ## How we do it
 
 1. **Start from real problems.** We read what owners describe in reviews, forums and vet threads, and rank problems by how deep the need is and how poorly it is served.
-2. **AI-powered research, human judgement.** Our research system searches and cross-checks the peer-reviewed literature at a scale a traditional team cannot. Our team reviews every claim before it is published.
+2. **AI-powered research.** Our research system searches, screens and cross-checks the peer-reviewed literature at a scale a traditional team cannot, and fact-checks every statement against the source papers before a report is published.
 3. **Safety first.** For any ingredient, toxicity in the target species is checked before efficacy.
 4. **Every claim has a source.** Each reference carries a PubMed ID or DOI. Where we find no evidence, we write "not found" rather than fill the gap.
 5. **Lab-tested.** Our in-house research facility tests raw materials and finished products for identity, potency, contaminants and stability.
 
 ## Projects
 
-| Project | Published | Species |
-|---|---|---|
-| [How we researched our first six products](2026-10-first-six-products/) · [中文](2026-10-first-six-products/README.zh.md) | 2026-10-09 | Reptiles, rabbits, parrots, cats |
+| Project | Published | Species | Sources |
+|---|---|---|---|
+| [Preventing urinary blockages in cats: what the evidence supports](2026-08-feline-urinary-health/) | 2026-08-20 | Cats | [40 studies](2026-08-feline-urinary-health/sources/) |
 
 ## How this repository is organised
 
 Each folder is one research project. Every project has the same shape:
 
 ```
-2026-10-first-six-products/
+2026-08-feline-urinary-health/
 ├── README.md          the research report
-├── README.zh.md       the report in Chinese (when available)
 └── sources/
-    ├── sources.csv    every source the report cites, numbered as in the report
-    └── README.md      what each column means
+    ├── README.md      every study the report cites, with links to read it
+    └── sources.csv    the same list as a table, numbered as in the report
 ```
 
-Open a project folder to read its report. Open `sources/sources.csv` to see its sources as a searchable table, with links to PubMed and to free full text where it exists.
+Open a project folder to read its report. Open its `sources` folder to see every study it used, with links to PubMed and to the free full text where one exists.
 
 ## Use and cite
 
 Our reports and source lists are licensed under [CC BY 4.0](LICENSE): share and adapt them freely, with credit.
 
-> MSRA Open Research (2026). *How we researched our first six products.* https://github.com/chicco4life/MSRA-Open-Research
+> MSRA Open Research (2026). *Preventing urinary blockages in cats: what the evidence supports.* https://github.com/chicco4life/MSRA-Open-Research
 
 The studies we list belong to their authors and publishers. We link to them; we do not host copies.
 
