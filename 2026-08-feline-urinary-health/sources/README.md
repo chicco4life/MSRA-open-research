@@ -1,6 +1,6 @@
 # Sources: Preventing urinary blockages in cats: what the evidence supports
 
-Every study cited in the [report](../README.md), numbered as in the report. `sources.csv` has the same list as a table.
+Every study cited in the [full report on msralab.com](https://msralab.com/research/project/?p=2026-08-feline-urinary-health), numbered as in the report. [`sources.csv`](sources.csv) has the same list as a table.
 
 | # | Study | Year | Studied in | Read it |
 |---|---|---|---|---|

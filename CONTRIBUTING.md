@@ -4,41 +4,57 @@ Everything published here appears on [msralab.com/research](https://msralab.com/
 
 ## Add a research project
 
-1. Create a folder named `YYYY-MM-short-name`, for example `2026-11-rabbit-gut-health`.
-   On GitHub: **Add file → Create new file**, and type `2026-11-rabbit-gut-health/README.md` as the name (typing the `/` creates the folder).
-2. Paste the report template below into `README.md` and write the report.
-3. Add `sources/sources.csv` in the same folder, one line per source, numbered as in the report.
-   Copy the header line from an existing project's `sources.csv`. Wrap any value that contains a comma in double quotes.
-4. Add `sources/README.md`: the same studies as a readable table with PubMed and free-full-text links (copy an existing project's file as a starting point).
-5. Add a row for the project to the **Projects** table in the main [README](README.md).
-6. Click **Commit changes**.
+Every project folder has the same shape:
 
-### Report template (`README.md`)
+```
+2026-11-short-name/
+├── README.md        overview for GitHub visitors: summary, key findings, links to the report and sources
+├── report.md        the full report, which msralab.com displays
+└── sources/
+    ├── README.md    every study cited, with PubMed and free-full-text links
+    └── sources.csv  the same list as a table, numbered as in the report
+```
+
+1. Create a folder named `YYYY-MM-short-name`, for example `2026-11-guinea-pig-vitamin-c`.
+   On GitHub: **Add file → Create new file**, and type `2026-11-guinea-pig-vitamin-c/report.md` as the name (typing the `/` creates the folder).
+2. Write the report in `report.md` using the template below. Reports are written in English.
+3. Add `sources/sources.csv`, one line per source, numbered as in the report.
+   Copy the header line from an existing project. Wrap any value that contains a comma in double quotes.
+4. Add `sources/README.md` (copy an existing one): the same studies as a readable table, and a link to the report on msralab.com.
+5. Add the folder's `README.md` (copy an existing one and change the title, summary, key findings, counts and links).
+   The report's address on the website is `https://msralab.com/research/project/?p=<folder name>`.
+6. Add a row to the **Projects** table in the main [README](README.md), then run `python3 tools/make_charts.py` to redraw the charts.
+7. Commit.
+
+### Report template (`report.md`)
 
 ```markdown
 ---
-title: "Your title"
+title: "Your title: what the evidence supports"
+label: "Short name for charts"
 date: 2026-11-02
-summary: "One or two sentences shown in the list of projects."
+summary: "One or two sentences shown on the website's project cards."
 authors: "MSRA Research"
 species: [Rabbits]       # any of: Reptiles, Rabbits, Parrots, Cats, Dogs, Birds, Other
 ---
 
-# Your title
+# Your title: what the evidence supports
 
 *The same one or two sentences as the summary.*
 
-[Sources used in this project](sources/)
+## Key findings
 
-Opening paragraph.
+- One finding per line, with its citation [1].
 
-## A section
+## The question
 
-Text with a citation [1] and another [2].
+## How we researched it
 
-## Where the evidence stops
+## …sections on the evidence…
 
-Which species the evidence comes from, whether it tested an ingredient or a finished product, and what is still unknown.
+## What the evidence does not show
+
+## What this means for owners
 
 ## References
 
@@ -48,11 +64,12 @@ Which species the evidence comes from, whether it tested an ingredient or a fini
 
 ## House rules
 
-- Cite every factual claim with a numbered reference that has a PMID or DOI, and list it in `sources/sources.csv`.
-- Say which species a study was done in, and whether it tested an ingredient or a finished product.
-- If evidence is missing, write "not found". Never fill a gap with a guess.
-- Write reports in English.
-- No product promises. Reports inform; they are not veterinary advice.
+- Cite every factual claim with a numbered reference that has a PubMed ID or DOI, and list it in `sources/sources.csv`.
+- Say which species a study was done in, and whether it tested an ingredient, a diet or a finished product.
+- Report null and negative results as clearly as positive ones.
+- If evidence is missing, write that it was not found. Never fill a gap with a guess.
+- No brand or company names, and no product promises. Reports inform; they are not veterinary advice.
+- Link to studies; do not upload copies of papers.
 
 ## Suggest something without editing
 
