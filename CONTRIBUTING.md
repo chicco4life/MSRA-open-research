@@ -1,6 +1,6 @@
 # Contributing
 
-Everything published here appears on [msralab.com/research](https://msralab.com/research/) automatically, usually within about five minutes. No one needs to touch the website.
+Everything published here appears on [msralab.com/research](https://msralab.com/research/) automatically, usually within about five minutes. Each report also gets a page of its own on the website (so search engines can read it) when the website's research sync is run (`tools/sync_research.py` in the website repository).
 
 ## Add a research project
 
@@ -22,7 +22,7 @@ Every project folder has the same shape:
    Copy the header line from an existing project. Wrap any value that contains a comma in double quotes.
 4. Add `sources/README.md` (copy an existing one): the same studies as a readable table, and a link to the report on msralab.com.
 5. Add the folder's `README.md` (copy an existing one and change the title, summary, key findings, counts and links).
-   The report's address on the website is `https://msralab.com/research/project/?p=<folder name>`.
+   The report's address on the website is `https://msralab.com/research/<folder name>/`.
 6. Add a row to the **Projects** table in the main [README](README.md), then run `python3 tools/make_charts.py` to redraw the charts.
 7. Commit.
 

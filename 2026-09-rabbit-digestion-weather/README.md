@@ -2,7 +2,7 @@
 
 *Heat is the best-studied weather threat to rabbit digestion. Betaine has more rabbit trials than any other heat additive, with gut-marker benefits but mixed growth results. Common electrolyte doses have no trials behind them, and cold-weather evidence is thin.*
 
-[![Read the full report on msralab.com](https://img.shields.io/badge/Read_the_full_report-msralab.com-1F59A7?style=for-the-badge)](https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather)
+[![Read the full report on msralab.com](https://img.shields.io/badge/Read_the_full_report-msralab.com-1F59A7?style=for-the-badge)](https://msralab.com/research/2026-09-rabbit-digestion-weather/)
 [![Access the scientific evidence](https://img.shields.io/badge/Access_the_scientific_evidence-40_studies-163F78?style=for-the-badge)](sources/)
 
 | | |
@@ -21,7 +21,7 @@
 - The only cold-weather trial we found was on a farm: warm drinking water in a winter barn cut late diarrhoea (2 of 59 vs 14 of 60 rabbits) but not overall growth [11].
 - Chamomile and valerian extracts relax isolated rabbit gut muscle, but no study has tested whether they slow digestion in live rabbits [12, 13, 14].
 
-Numbers in brackets refer to the [sources list](sources/). The full report, with every table and the limits of the evidence, is on **[msralab.com](https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather)**.
+Numbers in brackets refer to the [sources list](sources/). The full report, with every table and the limits of the evidence, is on **[msralab.com](https://msralab.com/research/2026-09-rabbit-digestion-weather/)**.
 
 ## What is in this folder
 
@@ -34,11 +34,11 @@ Numbers in brackets refer to the [sources list](sources/). The full report, with
 
 ## Use this project
 
-- **Read it:** [the full report on msralab.com](https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather).
+- **Read it:** [the full report on msralab.com](https://msralab.com/research/2026-09-rabbit-digestion-weather/).
 - **Check it:** every claim carries a numbered reference; open [`sources/`](sources/) to read the study behind it.
 - **Reuse it:** text and source lists are [CC BY 4.0](../LICENSE). Credit "MSRA Open Research" and link to the report.
 - **Correct it:** [open an issue](https://github.com/chicco4life/MSRA-Open-Research/issues/new?title=Correction:%20Rabbit%20digestion%20in%20hot%20and%20cold%20weather:%20what%20the%20evidence%20supports) with the study or the error.
 
-> MSRA Open Research (2026). *Rabbit digestion in hot and cold weather: what the evidence supports.* https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather
+> MSRA Open Research (2026). *Rabbit digestion in hot and cold weather: what the evidence supports.* https://msralab.com/research/2026-09-rabbit-digestion-weather/
 
 This project summarises published research. It is not veterinary advice; talk to your vet about your animal.

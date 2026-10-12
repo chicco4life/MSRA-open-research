@@ -1,6 +1,6 @@
 # Sources: Rabbit digestion in hot and cold weather: what the evidence supports
 
-Every study cited in the [full report on msralab.com](https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather), numbered as in the report. [`sources.csv`](sources.csv) has the same list as a table.
+Every study cited in the [full report on msralab.com](https://msralab.com/research/2026-09-rabbit-digestion-weather/), numbered as in the report. [`sources.csv`](sources.csv) has the same list as a table.
 
 | # | Study | Year | Studied in | Read it |
 |---|---|---|---|---|

@@ -66,8 +66,8 @@ flowchart LR
 
 | Project | Species | Published | Studies cited | Read |
 |---|---|---|---|---|
-| **Preventing urinary blockages in cats: what the evidence supports** | Cats | 2026-08-20 | 40 (21 free full text) | [Report](https://msralab.com/research/project/?p=2026-08-feline-urinary-health) · [Sources](2026-08-feline-urinary-health/sources/) |
-| **Rabbit digestion in hot and cold weather: what the evidence supports** | Rabbits | 2026-09-10 | 40 (28 free full text) | [Report](https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather) · [Sources](2026-09-rabbit-digestion-weather/sources/) |
+| **Preventing urinary blockages in cats: what the evidence supports** | Cats | 2026-08-20 | 40 (21 free full text) | [Report](https://msralab.com/research/2026-08-feline-urinary-health/) · [Sources](2026-08-feline-urinary-health/sources/) |
+| **Rabbit digestion in hot and cold weather: what the evidence supports** | Rabbits | 2026-09-10 | 40 (28 free full text) | [Report](https://msralab.com/research/2026-09-rabbit-digestion-weather/) · [Sources](2026-09-rabbit-digestion-weather/sources/) |
 
 ## The knowledge base in numbers
 
@@ -153,7 +153,7 @@ MSRA-Open-Research/
 
 ## Cite
 
-> MSRA Open Research (2026). *Rabbit digestion in hot and cold weather: what the evidence supports.* https://msralab.com/research/project/?p=2026-09-rabbit-digestion-weather
+> MSRA Open Research (2026). *Rabbit digestion in hot and cold weather: what the evidence supports.* https://msralab.com/research/2026-09-rabbit-digestion-weather/
 
 Use the same pattern for any project: title, year, and the link to its report on msralab.com.
 
